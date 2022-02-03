@@ -1,6 +1,6 @@
 # ChallengeApp
  
---IN DEVELOPMENT--
+
 
 #Polish
 
