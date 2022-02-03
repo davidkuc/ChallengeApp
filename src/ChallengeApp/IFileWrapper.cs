@@ -13,9 +13,7 @@ public interface IFileWrapper
 
     StreamReader StreamReaderFromTextFile(string filePath);
     StreamWriter StreamWriterToEmployeeGrades(string filePath);
-    StreamWriter StreamWriterToAuditFile(string filePath);
-    
-    
+    StreamWriter StreamWriterToAuditFile(string filePath);   
 }
 
 

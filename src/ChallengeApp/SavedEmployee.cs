@@ -120,8 +120,6 @@ namespace ChallengeApp
             return newGradesList;
         }
 
-
-
         public override string[] ShowEmployeeGrades()
         {
 
@@ -159,7 +157,6 @@ namespace ChallengeApp
             }
             return tempList;
         }
-
 
         public override Statistics GetStatistics()
         {
@@ -220,6 +217,5 @@ namespace ChallengeApp
             text = text.Replace(oldName, currentName);
             File.WriteAllText(@$"{this.CurrentDirectory}\EmployeeList.txt", text);
         }
-
     }
 }

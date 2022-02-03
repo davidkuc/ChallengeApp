@@ -6,12 +6,6 @@ using System.Text;
 namespace ChallengeApp
 
 {
-
-
-
-
-
-
     class Program
     {
         static void Main(string[] args)
@@ -113,7 +107,6 @@ namespace ChallengeApp
 
                 Console.WriteLine(argex.Message);
             }
-
         }
 
         private static void ModifyEmployeeInteraction()
@@ -156,12 +149,10 @@ namespace ChallengeApp
 
                     default:
                         throw new ArgumentException($"Invalid input");
-
                 }
             }
             catch (ArgumentException argex)
             {
-
                 Console.WriteLine(argex.Message);
             }
         }
@@ -182,7 +173,6 @@ namespace ChallengeApp
                 {
                     emp.ChangeThisEmployeeName(name);
                 }
-
             }
             catch (Exception ex)
             {
@@ -237,14 +227,10 @@ namespace ChallengeApp
                 }
                 catch (Exception ex)
                 {
-
                     Console.WriteLine(ex.Message);
                 }
             }
         }
-
-
-
 
         private static void EnterGradeInteraction(IEmployee emp)
         {
@@ -280,16 +266,12 @@ namespace ChallengeApp
                     Console.WriteLine($"or press 'q' to return");
                 }
             }
-
-
         }
-
 
         private static void DeleteGradeInteraction(IEmployee emp)
         {
             while (true)
             {
-
                 try
                 {
                     emp.ShowEmployeeGrades();
@@ -315,7 +297,6 @@ namespace ChallengeApp
                 }
             }
         }
-
         #endregion
 
         #region InteractionMethodsExtensions
@@ -340,8 +321,6 @@ namespace ChallengeApp
             }
             Console.WriteLine();
         }
-
-
 
         private static void ShowStatistics()
         {
@@ -374,8 +353,6 @@ namespace ChallengeApp
         {
             Console.WriteLine("Grade deleted");
         }
-
         #endregion
-
     }
 }

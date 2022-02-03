@@ -104,7 +104,6 @@ namespace ChallengeApp
             return grade;
         }
 
-
         public override List<string> DeleteGrade(string gradeIndex)
         {
             int inputIndex;
@@ -151,8 +150,6 @@ namespace ChallengeApp
             return newGradesList;
         }
 
-
-
         public override string[] ShowEmployeeGrades()
         {
             Console.WriteLine();
@@ -190,7 +187,6 @@ namespace ChallengeApp
             }
             return tempList;
         }
-
 
         public override Statistics GetStatistics()
         {
@@ -236,7 +232,6 @@ namespace ChallengeApp
             this.Name = newname;
 
             ReplaceOldNameInEmployeeListFile(oldName, this.Name);
-
         }
 
         public string ReplaceOldNameInEmployeeListFile(string oldName, string currentName)

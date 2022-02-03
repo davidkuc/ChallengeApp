@@ -4,8 +4,6 @@ using System.IO;
 
 namespace ChallengeApp
 {
-
-
     public class Statistics
     {
         string currentDirectory = System.AppDomain.CurrentDomain.BaseDirectory;
